@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import {BrowserRouter, Route} from 'react-router-dom';
-import HelpPage from './HelpPage';
-import CreatePage from "./CreatePage";
+import HelpPage from '../component/HelpPage';
+import CreatePage from "../component/CreatePage";
+
 
 
 
