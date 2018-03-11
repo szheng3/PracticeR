@@ -1,15 +1,14 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class EditorPage extends Component {
-    render() {
-        return (
-            <div>
-                this is EditorPage
-            </div>
-        );
-    }
-}
+const EditorPage = (props) => {
+    return (
+        <div>
+            this is EditorPage of page {props.match.params.id}
+        </div>
+    );
+};
 
 EditorPage.propTypes = {};
 
 export default EditorPage;
+

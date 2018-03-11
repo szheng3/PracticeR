@@ -18,7 +18,7 @@ const AppRoute = (props) => {
 
                     <Route path={`/`} exact={true} component={DashBoard}/>
                     <Route path={`/create`} component={CreatePage}/>
-                    <Route path={`/edit`} component={EditorPage}/>
+                    <Route path={`/edit/:id`} component={EditorPage}/>
                     <Route path={`/help`} component={HelpPage}/>
                     <Route component={NotFoundPage}/>
                 </Switch>
